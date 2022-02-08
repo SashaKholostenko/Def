@@ -11,12 +11,19 @@
 
 <table border="2px">
 
-
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Date</th>
+    <th>Description</th>
+    <th>Calories</th>
+  </tr>
+  </thead>
 
   <c:forEach var="meals" items="${meals}">
 
   <tr style="${meals.excess ? 'color: crimson' : 'color: forestgreen' }">
-
+    <td>${meals.id}</td>
     <td>${meals.dateTime}</td>
     <td>${meals.description}</td>
     <td>${meals.calories}</td>
