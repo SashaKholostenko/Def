@@ -10,6 +10,9 @@
 <h2>Meals</h2>
 
 <table border="2px">
+
+
+
   <c:forEach var="meals" items="${meals}">
 
   <tr style="${meals.excess ? 'color: crimson' : 'color: forestgreen' }">
