@@ -16,12 +16,9 @@ public class DataSource {
     private static DataSource ourInstance = new DataSource();
     private AtomicInteger newid = new AtomicInteger(1);
 
-
-
     private DataSource() {
 
     }
-
 
     public static DataSource getInstance() {
         ourInstance.test();//test
@@ -62,7 +59,6 @@ public class DataSource {
     public Meal delete(int id) {
         return mealMap.remove(id);
     }
-
 
     private   void test() {
 

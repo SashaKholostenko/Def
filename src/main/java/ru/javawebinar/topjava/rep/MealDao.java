@@ -2,7 +2,6 @@ package ru.javawebinar.topjava.rep;
 
 import ru.javawebinar.topjava.model.Meal;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 public class MealDao implements MealRepository {

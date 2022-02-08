@@ -2,10 +2,10 @@ package ru.javawebinar.topjava.servlet;
 
 import org.slf4j.Logger;
 import ru.javawebinar.topjava.model.Meal;
-import ru.javawebinar.topjava.repositiry.MealDao;
-import ru.javawebinar.topjava.repositiry.MealRepository;
-import ru.javawebinar.topjava.service.MealService;
-import ru.javawebinar.topjava.service.MealServiceDS;
+import ru.javawebinar.topjava.rep.MealDao;
+import ru.javawebinar.topjava.rep.MealRepository;
+import ru.javawebinar.topjava.servise.MealService;
+import ru.javawebinar.topjava.servise.MealServiceDS;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

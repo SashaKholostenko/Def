@@ -3,10 +3,6 @@ package ru.javawebinar.topjava.model;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class MealTo {
-   import java.io.Serializable;
-import java.time.LocalDateTime;
-
     public class MealTo implements Serializable {
         private int id;
 
@@ -24,8 +20,6 @@ import java.time.LocalDateTime;
             this.calories = calories;
             this.excess = excess;
             this.id = id;
-
-
         }
 
         public int getId() {
