@@ -1,6 +1,4 @@
-package ru.javawebinar.topjava.servlet;
-
-import org.slf4j.Logger;
+package ru.javawebinar.topjava.web;
 
 import org.slf4j.Logger;
 
